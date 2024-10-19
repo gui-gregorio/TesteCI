@@ -1,0 +1,12 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy']
+    timeout: 1200s  
+
+
+substitutions:
+  _BRANCH: 'main'
+
+
+trigger:
+  branch: '^main$'
