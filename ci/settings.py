@@ -65,8 +65,12 @@ WSGI_APPLICATION = 'ci.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dro-teste',
+        'USER': 'dro-teste',
+        'PASSWORD': '5ib*J<e}rqFa;Ffd',
+        'HOST': '34.41.195.125',
+        'PORT': '5432'
     }
 }
 
