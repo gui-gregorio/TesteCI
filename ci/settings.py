@@ -64,15 +64,15 @@ WSGI_APPLICATION = 'ci.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dro-teste',
-        'USER': 'dro-teste',
-        'PASSWORD': '5ib*J<e}rqFa;Ffd',
-        'HOST': '34.41.195.125',
-        'PORT': '5432'
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'postgres',
+            'USER': 'postgres',
+            'PASSWORD': '5ib*J<e}rqFa;Ffd',
+            'HOST': '/cloudsql/focal-charge-439118-q8:us-central1:dro-teste',  # Nome da conexão Cloud SQL
+            'PORT': '5432',
+        }
     }
-}
 
 
 # Password validation
