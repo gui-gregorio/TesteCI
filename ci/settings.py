@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-@n3(@^^9292-87i@hv-zlcjq1n)gaez1cl08*6^-i83@ys*8pz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['focal-charge-439118-q8.uc.r.appspot.com']
 
 
 # Application definition
